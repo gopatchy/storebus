@@ -7,7 +7,7 @@ require (
 	github.com/gopatchy/bus v0.0.0-20230420182949-6d46cf96fe01
 	github.com/gopatchy/jsrest v0.0.0-20230420161234-12a6d6da8b7f
 	github.com/gopatchy/metadata v0.0.0-20230420053349-25837551c11d
-	github.com/gopatchy/store v0.0.0-20230420180842-570716e0aff1
+	github.com/gopatchy/store v0.0.0-20230420182144-80597a8cafc9
 	github.com/stretchr/testify v1.8.2
 	go.uber.org/goleak v1.2.1
 )
