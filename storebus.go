@@ -45,7 +45,7 @@ func (sb *StoreBus) Write(ctx context.Context, t string, obj any) error {
 	sb.orderMu.Lock()
 	defer sb.orderMu.Unlock()
 
-	if err := updateHash(obj); err != nil {
+	if err := UpdateHash(obj); err != nil {
 		return jsrest.Errorf(jsrest.ErrInternalServerError, "hash update failed (%w)", err)
 	}
 
@@ -149,7 +149,7 @@ func (sb *StoreBus) registerChan(in <-chan any, out <-chan []any) {
 	sb.chanMap[out] = in
 }
 
-func updateHash(obj any) error {
+func UpdateHash(obj any) error {
 	m := *metadata.GetMetadata(obj)
 	metadata.ClearMetadata(obj)
 
