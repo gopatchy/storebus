@@ -4,10 +4,10 @@ go 1.19
 
 require (
 	github.com/dchest/uniuri v1.2.0
-	github.com/gopatchy/bus v0.0.0-20230424233749-c395ddbca3df
-	github.com/gopatchy/jsrest v0.0.0-20230511133808-abcf8276d1ad
-	github.com/gopatchy/metadata v0.0.0-20230424223338-33e58fee42bf
-	github.com/gopatchy/store v0.0.0-20230424234123-d35f011d4f0f
+	github.com/gopatchy/bus v0.0.0-20230516044949-c7eca23ba608
+	github.com/gopatchy/jsrest v0.0.0-20230516044950-1c6d15dad16a
+	github.com/gopatchy/metadata v0.0.0-20230516044939-eed23a0903d5
+	github.com/gopatchy/store v0.0.0-20230516045007-b2385cdea3a9
 	github.com/stretchr/testify v1.8.2
 	go.uber.org/goleak v1.2.1
 )
