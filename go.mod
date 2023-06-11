@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/dchest/uniuri v1.2.0
-	github.com/gopatchy/bus v0.0.0-20230611025907-ece5ebd82920
+	github.com/gopatchy/bus v0.0.0-20230611030146-6751438c7f57
 	github.com/gopatchy/jsrest v0.0.0-20230611025933-909a266547e0
 	github.com/gopatchy/metadata v0.0.0-20230611025918-a5568e41335d
 	github.com/gopatchy/store v0.0.0-20230611030019-6d3effdbe685
